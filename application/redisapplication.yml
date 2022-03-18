@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/abdelrahmanMsaeed/argoCD-lab.git
+    repoURL: https://github.com/abdelrahmanMsaeed/Gitops-task.git
     targetRevision: HEAD
     path: redisDB
   destination:
