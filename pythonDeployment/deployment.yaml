@@ -17,12 +17,12 @@ spec:
       labels:
         app: python-application
    
-  spec:
-    containers:
-      - name: python-redis
-        image: abosaeed/python-docker
-        ports:
-        - containerPort: 8000
-        envFrom:
-        - configMapRef:
-            name: app-config
+    spec:
+      containers:
+        - name: python-redis
+          image: abosaeed/python-docker
+          ports:
+          - containerPort: 8000
+          envFrom:
+          - configMapRef:
+              name: app-config
