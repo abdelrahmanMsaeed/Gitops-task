@@ -2,8 +2,12 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
+<<<<<<< HEAD
   name: prometheus
   namespace: argocd                                # Namespace in which ArgoCD is deployed
+=======
+  name: prometheus-operator
+>>>>>>> parent of 6c1e2b4... modify promethues
 spec:
   destination:
     namespace: monitoring
