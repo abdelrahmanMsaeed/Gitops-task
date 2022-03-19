@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    chart: kube-prometheus-stack
+    path: kube-prometheus-stack
     repoURL: https://github.com/abdelrahmanMsaeed/Gitops-task.git
     targetRevision: HEAD
   destination:
