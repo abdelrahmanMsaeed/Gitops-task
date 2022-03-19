@@ -6,7 +6,7 @@ metadata:
     name:  load-blance
 
 spec:
-  type: loadBalancer
+  type: LoadBalancer
   ports:
    - port: 8000
      targetPort: 8000
